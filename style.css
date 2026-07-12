@@ -42,7 +42,7 @@ body {
 }
 
 .nav-container {
-    display: flex; /* Flexbox used here */
+    display: flex; 
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
@@ -57,7 +57,7 @@ body {
 }
 
 .nav-links {
-    display: flex; /* Flexbox used here */
+    display: flex;
     gap: 2rem;
     align-items: center;
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .hero {
-    display: flex; /* Flexbox used here */
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -148,7 +148,7 @@ body {
 }
 
 .services-grid {
-    display: grid; /* CSS Grid used here */
+    display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2.5rem;
 }
@@ -190,12 +190,21 @@ footer {
 }
 
 .social-icons a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 500;
+    display: inline-block;
 }
 
-/* Raw CSS Mobile Breakpoint */
+.social-icons svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--text-color);
+    transition: transform 0.2s ease, fill 0.2s ease;
+}
+
+.social-icons a:hover svg {
+    fill: var(--primary-color);
+    transform: translateY(-3px) scale(1.1);
+}
+
 @media (max-width: 768px) {
     .mobile-menu-btn {
         display: block;
