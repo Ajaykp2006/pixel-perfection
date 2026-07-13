@@ -5,12 +5,34 @@ A fast, responsive, and modern landing page built for **Prodesk IT**, an IT and 
 ## 🔗 Important Links
 
 - **Live Website:** [sprint-1-black.vercel.app](https://sprint-1-black.vercel.app/)
-- **Demo Video:** [Insert your video link here](https://drive.google.com/drive/u/1/folders/1agGuKbzM4jwN3Y1M8f7TlZgkAS6kiv2e)
+- **Demo Video:** [Inserted video link here](https://drive.google.com/drive/u/1/folders/1agGuKbzM4jwN3Y1M8f7TlZgkAS6kiv2e)
 
 ## 📸 Screenshot
 
 ![Prodesk IT Landing Page Screenshot]<img width="1896" height="1082" alt="Screenshot 2026-07-13 173504" src="https://github.com/user-attachments/assets/de7a4f25-7d16-4120-8f11-77bb1c0f5836" />
 
+
+## Tech Stack
+* **HTML5:** Structures the content, including a navigation bar, hero section, services grid, and a footer.
+* **CSS3:** Handles styling with a focus on responsiveness and theming, utilizing CSS variables defined in a `:root` selector for colors, backgrounds, and shadows.
+* **Vanilla JavaScript:** Manages interactive frontend elements, specifically a dark mode toggle and a mobile hamburger menu.
+
+## Key Features
+* **Theming (Dark/Light Mode):** The website supports a dynamic dark mode feature. The JavaScript checks `localStorage` for the saved theme upon DOM load and allows users to toggle between modes, appending or removing the `dark-mode` class on the document body. The CSS defines distinct background and text colors for the default light mode and the `.dark-mode` override.
+* **Responsive Navigation:** The header contains a navigation menu that adapts to mobile devices. On viewports smaller than 768px, a hamburger menu button (☰) becomes visible. Clicking this button uses JavaScript to toggle an `active` class on the navigation links, transforming them into a dropdown menu.
+* **Services Section:** A CSS Grid layout (`grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))`) displays three core service cards: SEO Optimization, Web Development, and Digital Marketing. These cards feature a hover effect that translates them upwards and applies a shadow.
+* **Footer:** Contains a copyright notice for 2026 and inline SVG social media icons for Twitter, LinkedIn, and GitHub.
+
+## File Structure
+* `index.html`: Contains the main semantic structure, including the `#home` and `#services` sections.
+* `style.css`: Contains all visual styling, media queries for mobile responsiveness, and custom CSS theme variables.
+* `response.js`: Handles DOM manipulation via event listeners for the `#theme-toggle` button, `#mobile-menu-btn`, and includes demo alert functionality for a `#contact-form` submission.
+
+## Needed Requirements / Pending Tasks
+The following elements are currently referenced in the codebase but still need to be implemented:
+* **Contact Form & Section:** The `response.js` file includes a submit event listener for a `#contact-form`, and the navigation links to `#contact`. The actual HTML section and form elements need to be built.
+* **About Section:** The navigation includes an anchor link to `#about`, but the corresponding section is missing from `index.html`.
+* **Social Media Links:** The SVG social icons in the footer currently point to `#` and need to be updated with live URLs.
 
 ## 🚀 Features
 
