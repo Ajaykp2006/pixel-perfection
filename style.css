@@ -9,13 +9,15 @@
     --border-color: #e5e7eb;
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --shadow-lg: 0 20px 40px rgba(0,0,0,0.1);
+    --nav-bg: rgba(255, 255, 255, 0.8);
 }
+
 
 body.dark-mode {
     --bg-color: #0f1627;
     --text-color: #f9fafb;
     --card-bg: #1c2837;
-    --nav-bg: rgba(20, 31, 54, 0.95);
+      --nav-bg: rgba(20, 31, 54, 0.8);
     --border-color: #374151;
 }
 
@@ -60,12 +62,11 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: #0f172a;
+    background-color: var(--nav-bg); 
     border-bottom: 1px solid var(--border-color);
     backdrop-filter: blur(8px);
     transition: background-color 0.3s ease;
 }
-
 .nav-container {
     display: flex;
     justify-content: space-between;
