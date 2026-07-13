@@ -9,7 +9,8 @@ A fast, responsive, and modern landing page built for **Prodesk IT**, an IT and 
 
 ## 📸 Screenshot
 
-![Prodesk IT Landing Page Screenshot](https://github.com/user-attachments/assets/23949b0a-c015-4b7c-92b1-df68c6076c70)
+![Prodesk IT Landing Page Screenshot]<img width="1896" height="1082" alt="Screenshot 2026-07-13 173504" src="https://github.com/user-attachments/assets/de7a4f25-7d16-4120-8f11-77bb1c0f5836" />
+
 
 ## 🚀 Features
 
