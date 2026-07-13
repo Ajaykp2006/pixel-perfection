@@ -10,13 +10,11 @@ A fast, responsive, and modern landing page built for **Prodesk IT**, an IT and 
 - **Interactive UI Components:** Includes smooth scrolling, hover animations (like the About section image scale), and a mobile-friendly collapsing hamburger navigation menu.
 - **Custom Branding:** Integrated custom logo scaling and professional layout structuring for a corporate aesthetic.
 
-<body>
+## 🔗 Important Links
 
-  <img width="1898" height="1087" alt="Screenshot 2026-07-13 160207" src="https://github.com/user-attachments/assets/23949b0a-c015-4b7c-92b1-df68c6076c70" />
+- **Live Website:** [pixel-perfection.vercel.app](https://pixel-perfection.vercel.app/)
+- **Demo Video:** [Insert your video link here]
 
+## 📸 Screenshot
 
-<h1>Here is the live URl :</h1>
-
-(https://pixel-perfection.vercel.app/)
-
-</body>
+![Prodesk IT Landing Page Screenshot](https://github.com/user-attachments/assets/23949b0a-c015-4b7c-92b1-df68c6076c70)
