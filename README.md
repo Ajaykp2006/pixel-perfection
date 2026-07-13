@@ -1,16 +1,27 @@
+# Prodesk IT - Corporate Landing Page
+
+A fast, responsive, and modern landing page built for **Prodesk IT**, an IT and Engineering Services company. This project was developed entirely from scratch using Vanilla HTML, CSS, and JavaScript—strictly without the use of external CSS frameworks like Bootstrap or Tailwind.
+
+## 🚀 Features
+
+- **Zero-Dependency Architecture:** Built with pure HTML5, CSS3, and Vanilla JavaScript for maximum performance and full control over the codebase.
+- **Dark/Light Mode Theme Toggle:** Integrated theme switching using CSS custom properties (`:root` variables) with user preference persistence via `localStorage`.
+- **Fully Responsive Layout:** Utilizes CSS Flexbox and Grid, along with media queries, to ensure seamless adaptation across mobile, tablet, and desktop viewports.
+- **Interactive UI Components:** Includes smooth scrolling, hover animations (like the About section image scale), and a mobile-friendly collapsing hamburger navigation menu.
+- **Custom Branding:** Integrated custom logo scaling and professional layout structuring for a corporate aesthetic.
+
+## 📁 File Structure
+
+```text
+/
+├── index.html       # Main HTML document and layout structure
+├── 1.css            # Global styles, variables, theme logic, and media queries
+├── 1.js             # Theme toggle logic, mobile menu controller, and form handling
+├── logo.jpg         # Prodesk IT custom brand logo
+└── prompt.md        # Log of AI prompts utilized during the development sprint
+
 <body>
-  
-<h1>These the screenshots of the Landing-page</h1> 
-  
-<img width="1897" height="1090" alt="Screenshot 2026-07-13 143630" src="https://github.com/user-attachments/assets/049529af-d3a9-49ac-80a6-e5a1e05a353c" />
 
-<img width="1896" height="888" alt="Screenshot 2026-07-13 143648" src="https://github.com/user-attachments/assets/8e77dce1-eb0e-49e0-b76c-6dd79a9a5ffa" />
-
-<img width="1897" height="487" alt="Screenshot 2026-07-13 143706" src="https://github.com/user-attachments/assets/35c3fbec-65fa-4569-b892-00f5523e6d71" />
-
-<img width="1896" height="943" alt="Screenshot 2026-07-13 143721" src="https://github.com/user-attachments/assets/0fac707b-686b-41f0-8a8e-bb6bff29167d" />
-
-<img width="1897" height="272" alt="Screenshot 2026-07-13 143733" src="https://github.com/user-attachments/assets/dcf799ec-8f59-4fe3-97c0-a7434419ead6" />
 
 <h1>Here is the live URl :</h1>
 
