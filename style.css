@@ -62,9 +62,9 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: #0f1627; 
+    background-color: var(--nav-bg);
     border-bottom: 1px solid var(--border-color);
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(4px);
     transition: background-color 0.3s ease;
 }
 .nav-container {
