@@ -147,17 +147,6 @@ body {
 }
 .hero-text p { font-size: 1.25rem; margin-bottom: 2.5rem; opacity: 0.9; }
 
-.hero-visual { flex: 1; display: flex; justify-content: center; }
-
-.hero-image {
-    width: 100%;
-    max-width: 450px; 
-    border-radius: 16px;
-    box-shadow: var(--shadow-lg);
-    object-fit: cover;
-}
-.hero-image:hover { transform: scale(1.02); }
-
 .services { max-width: 1200px; margin: 0 auto; padding: 5rem 2rem; }
 .services h2 { font-size: 2.25rem; margin-bottom: 3rem; text-align: center; }
 
