@@ -3,28 +3,6 @@
 ## Overview
 This project is a landing page for **Prodesk IT**, a digital agency that builds digital experiences. The website highlights the company's focus on empowering businesses through web development, SEO optimization, and digital marketing strategies.
 
-## Tech Stack
-* **HTML5:** Structures the content, including a navigation bar, hero section, services grid, and a footer.
-* **CSS3:** Handles styling with a focus on responsiveness and theming, utilizing CSS variables defined in a `:root` selector for colors, backgrounds, and shadows.
-* **Vanilla JavaScript:** Manages interactive frontend elements, specifically a dark mode toggle and a mobile hamburger menu.
-
-## AI Use Cases & Implementation Guidelines
-When generating or refactoring code for this repository, AI assistants should adhere to the following patterns already established in the codebase:
-* **Theme Architecture:** When generating new components or sections, do not hardcode colors. Use the existing CSS variables (e.g., `var(--bg-color)`, `var(--text-color)`, `var(--card-bg)`) to ensure new elements automatically support the light/dark mode toggle functionality.
-* **State Management:** Rely on the utility classes handled by JavaScript. For example, mobile menus or interactive visibility should leverage class toggles (like `.active` or `.dark-mode` applied to the body) rather than inline style injections.
-* **Responsive Layouts:** Prioritize modern CSS layouts like Flexbox and CSS Grid (`repeat(auto-fit, minmax(...))`) to maintain fluid responsiveness before falling back to explicit media queries.
-
-## Key Features
-* **Theming (Dark/Light Mode):** The website supports a dynamic dark mode feature. The JavaScript checks `localStorage` for the saved theme upon DOM load and allows users to toggle between modes, appending or removing the `dark-mode` class on the document body. The CSS defines distinct background and text colors for the default light mode and the `.dark-mode` override.
-* **Responsive Navigation:** The header contains a navigation menu that adapts to mobile devices. On viewports smaller than 768px, a hamburger menu button (☰) becomes visible. Clicking this button uses JavaScript to toggle an `active` class on the navigation links, transforming them into a dropdown menu.
-* **Services Section:** A CSS Grid layout (`grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))`) displays three core service cards: SEO Optimization, Web Development, and Digital Marketing. These cards feature a hover effect that translates them upwards and applies a shadow.
-* **Footer:** Contains a copyright notice for 2026 and inline SVG social media icons for Twitter, LinkedIn, and GitHub.
-
-## Needed Requirements / Pending Tasks
-The following elements are currently referenced in the codebase but still need to be implemented:
-* **Contact Form & Section:** The `response.js` file includes a submit event listener for a `#contact-form`, and the navigation links to `#contact`. The actual HTML section and form elements need to be built.
-* **About Section:** The navigation includes an anchor link to `#about`, but the corresponding section is missing from `index.html`.
-* **Social Media Links:** The SVG social icons in the footer currently point to `#` and need to be updated with live URLs.
 
 ## AI Prompt Log: Core Functionality & Debugging
 To accelerate the development process and resolve specific blockers, I utilized AI (Gemini) during this sprint. Below is the log of the prompts used:
