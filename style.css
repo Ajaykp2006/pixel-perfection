@@ -1,6 +1,4 @@
-/* =========================================
-   Theme Variables
-   ========================================= */
+
 :root {
     --bg-color: #ffffff;
     --text-color: #111827;
@@ -21,9 +19,6 @@ body.dark-mode {
     --border-color: #374151;
 }
 
-/* =========================================
-   Global Reset & Typography
-   ========================================= */
 * {
     margin: 0;
     padding: 0;
@@ -61,9 +56,7 @@ body {
     width: 100%;
 }
 
-/* =========================================
-   Navbar
-   ========================================= */
+
 .navbar {
     position: sticky;
     top: 0;
@@ -84,7 +77,7 @@ body {
 }
 
 .custom-logo {
-    height: 80px; /* You can adjust this height to make the logo larger or smaller */
+    height: 80px; 
     width: auto;
 }
 
@@ -128,9 +121,6 @@ body {
     color: var(--text-color);
 }
 
-/* =========================================
-   Hero Section
-   ========================================= */
 .hero {
     display: flex;
     justify-content: center;
@@ -162,16 +152,14 @@ body {
 
 .hero-image {
     width: 100%;
-    max-width: 450px; /* Lower this number to shrink the image */
+    max-width: 450px; 
     border-radius: 16px;
     box-shadow: var(--shadow-lg);
     object-fit: cover;
 }
 .hero-image:hover { transform: scale(1.02); }
 
-/* =========================================
-   About Section
-   ========================================= */
+
 .about { max-width: 1200px; margin: 0 auto; padding: 5rem 2rem; }
 .about-container { display: flex; align-items: center; gap: 4rem; }
 .about-text { flex: 1; }
@@ -187,16 +175,13 @@ body {
 .about-visual { flex: 1; }
 .about-image {
     width: 100%;
-    max-width: 450px; /* Lower this number to shrink the image */
+    max-width: 450px; 
     border-radius: 16px;
     box-shadow: var(--shadow-lg);
     object-fit: cover;
 }
 .about-image:hover { transform: scale(1.02); }
 
-/* =========================================
-   Services Section (CSS Grid)
-   ========================================= */
 .services { max-width: 1200px; margin: 0 auto; padding: 5rem 2rem; }
 .services h2 { font-size: 2.25rem; margin-bottom: 3rem; text-align: center; }
 
@@ -217,9 +202,7 @@ body {
 .service-card:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); }
 .dark-mode .service-card:hover { box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); }
 
-/* =========================================
-   Contact Section
-   ========================================= */
+
 .contact { background-color: var(--card-bg); padding: 5rem 2rem; }
 .contact > h2 { text-align: center; font-size: 2.25rem; margin-bottom: 3rem; }
 .contact-container { max-width: 1200px; margin: 0 auto; display: flex; gap: 4rem; }
@@ -262,9 +245,6 @@ body {
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
-/* =========================================
-   Footer Styling
-   ========================================= */
 footer {
     background-color: #0f172a; 
     color: #ffffff;
